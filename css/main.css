@@ -10,8 +10,76 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+img {
+  width: 50px;
+}
+
+li {
+  list-style-type: none;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+body {
+  margin: .75em;
+}
+
+ul {
+  margin-top: .5rem;
+  padding-left: 0;
+}
+
+.card-img {
+  text-align: center;
+}
+
+p {
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .card {
+    display: block;
+    width: 11.3rem;
+  }
+
+  ul {
+    display: flex;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .card {
+    width: 16rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .card {
+    display: flex;
+    width: 22rem;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  .card-body {
+    margin-left: 1rem;
+  }
